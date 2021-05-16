@@ -93,13 +93,15 @@
   letter-spacing: 0.03em;
 
   color: #2196f3;
-}
+
+
+
 
 /*=========КОНЕЦ КОМПОНЕНТИ=======*/
 
 /*==============ШАПКА=============*/
 
-.menu-link {
+.menu-link  {
   font-family: var(--main-font);
   font-weight: 500;
   font-size: 14px;
