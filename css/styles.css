@@ -1,6 +1,11 @@
 :root {
-  --main-font: "Roboto", sans-serif;
-  --accent-color: #2196f3;
+  --primary-text-color: #212121;
+  --description-text-color: #757575;
+}
+
+body {
+  background-color: #e5e5e5;
+  color: #212121;
 }
 
 .list {
@@ -11,154 +16,67 @@
   text-decoration: none;
 }
 
-/*============КОМПОНЕНТИ===========*/
+/* ==============Компоненти============== */
+.logo {
+  color: #2196f3;
+}
 
-/*Кнопка*/
+.main {
+  background-color: #d8d2d2;
+}
+/*============= Шапка сайта ==============*/
+
+.site-nav .link {
+  color: #212121;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+
+.address-one {
+}
+/*================ Герой ================*/
+.hero-title {
+  color: #2196f3;
+}
 .modal-btn {
-  font-family: var(--main-font);
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 1.87;
 }
 
-.modal-btn.primary {
-  color: #ffffff;
-  background-color: #2196f3;
+/*============== Преимущества =============*/
+.title-hidden {
+  color: #a79f9f;
 }
 
-.modal-btn:hover,
-.modal-btn:focus {
-  background-color: #188ce8;
-  cursor: pointer;
-}
-
-.modal-button {
-  font-family: var(--main-font);
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 1.87;
-}
-
-.modal-button.primary {
-  color: #212121;
-  background-color: #f5f4fa;
-}
-
-.modal-button:hover,
-.modal-button:focus {
-  color: #ffffff;
-  background-color: #2196f3;
-  cursor: pointer;
-}
-/*Кнопка конец*/
-
-.title {
-  font-family: var(--main-font);
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  letter-spacing: 0.03em;
-
+.benefits-list-item .suptitle {
   color: #212121;
 }
 
-.suptitle {
-  font-family: var(--main-font);
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-
-  color: #212121;
-}
-
-.description {
-  font-family: var(--main-font);
-  font-size: 14px;
-  line-height: 1.71;
-
-  letter-spacing: 0.03em;
-
+.benefits-list-item .description {
   color: #757575;
 }
-.logo-link {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-
-  letter-spacing: 0.03em;
-
-  color: #2196f3;
-
-
-
-
-/*=========КОНЕЦ КОМПОНЕНТИ=======*/
-
-/*==============ШАПКА=============*/
-
-.menu-link  {
-  font-family: var(--main-font);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
+/*============== Примери робот =============*/
+.title-work-examples {
+  color: #212121;
 }
 
-.menu-link:hover,
-.menu-link:focus {
-  color: var(--accent-color);
+/*================= Команда ================*/
+.title-our-team {
+  color: #212121;
 }
 
-.menu-link .link.current {
-  color: var(--accent-color);
-}
-.address-link {
-  font-family: var(--main-font);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
+.team-suptitle {
+  color: #212121;
 }
 
-.address-link:hover,
-.address-link:focus {
-  color: var(--accent-color);
+.team-description {
+  color: #757575;
 }
-
-/*===========КОНЕЦ ШАПКА=============*/
-
-/*==============ГЕРОИ===============*/
-
-.hero-title {
-  font-family: var(--main-font);
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-
-  text-align: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+/*================= Подвал ================*/
+.address-two-item {
+  color: #000000;
 }
-
-/*===========КОНЕЦ ГЕРОИ===========*/
-
-/*=============ПОДВАЛ==============*/
-
-.address-two-about {
-  font-family: var(--main-font);
-  font-size: 14px;
-  line-height: 1.71;
-
-  letter-spacing: 0.03em;
-
-  color: ;
-}
-
-/*==========КОНЕЦ ПОДВАЛ===========*/
-.about-img-list-img {
+.address-two .address-two-item-one {
+  color: rgba(255, 255, 255, 0.6);
 }
