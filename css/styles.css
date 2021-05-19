@@ -1,11 +1,12 @@
 :root {
   --primary-text-color: #212121;
-  --description-text-color: #757575;
 }
 
 body {
   background-color: #e5e5e5;
-  color: #212121;
+  color: var(--primary-text-color);
+
+  font-family: "Roboto", sans-serif;
 }
 
 .list {
@@ -16,8 +17,16 @@ body {
   text-decoration: none;
 }
 
+/* ===============КНОПКИ================ */
+
 /* ==============Компоненти============== */
 .logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+
   color: #2196f3;
 }
 
@@ -27,7 +36,12 @@ body {
 /*============= Шапка сайта ==============*/
 
 .site-nav .link {
-  color: #212121;
+  color: var(--primary-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover,
@@ -35,48 +49,170 @@ body {
   color: #2196f3;
 }
 
-.address-one {
+.site-nav .link.current {
+  color: #2196f3;
 }
+
+.address-one .address-one-item {
+  color: #757575;
+}
+
+.address-one-item:hover,
+.address-one-item:focus {
+  color: #2196f3;
+}
+
 /*================ Герой ================*/
 .hero-title {
   color: #2196f3;
-}
-.modal-btn {
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
+.modal-btn {
+  color: #ffffff;
+  background-color: #2196f3;
+
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+  color: #ffffff;
+  background-color: #188ce8;
+}
+
+.modal-btn.primary {
+}
+.modal-btn.secondary {
+}
 /*============== Преимущества =============*/
 .title-hidden {
   color: #a79f9f;
 }
 
 .benefits-list-item .suptitle {
-  color: #212121;
+  color: var(--primary-text-color);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .benefits-list-item .description {
   color: #757575;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 /*============== Примери робот =============*/
 .title-work-examples {
-  color: #212121;
+  color: var(--primary-text-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 /*================= Команда ================*/
 .title-our-team {
-  color: #212121;
+  color: var(--primary-text-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .team-suptitle {
-  color: #212121;
+  color: var(--primary-text-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
 }
 
 .team-description {
   color: #757575;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
 }
 /*================= Подвал ================*/
 .address-two-item {
   color: #000000;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
-.address-two .address-two-item-one {
+.address-two-item-transparent {
   color: rgba(255, 255, 255, 0.6);
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+/*=====================================*/
+/*==============ПОРТФОЛИО==============*/
+/* =================================== */
+.portfolio-main {
+  background-color: #eeeeee;
+}
+/* ===============Кнопки=============== */
+
+.modal-button {
+  color: var(--primary-text-color);
+  background-color: #F5F4FA;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.modal-button:hover,
+.modal-button:focus {
+  color: #ffffff;
+  background-color: #188ce8;
+
+/* ===============Карточки=============== */
+.cards-item .card-suptitle {
+  color: #212121;
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.cards-item .card-description {
+  color: #757575;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
 }
