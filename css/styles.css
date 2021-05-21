@@ -1,11 +1,10 @@
 :root {
   --primary-text-color: #212121;
+  --secondary-text-color: #757575;
 }
 
 body {
   background-color: #e5e5e5;
-  color: var(--primary-text-color);
-
   font-family: "Roboto", sans-serif;
 }
 
@@ -17,27 +16,27 @@ body {
   text-decoration: none;
 }
 
-/* ===============КНОПКИ================ */
-
 /* ==============Компоненти============== */
-.logo {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-
-  color: #2196f3;
-}
 
 .main {
   background-color: #d8d2d2;
 }
 /*============= Шапка сайта ==============*/
+.logo-text-header {
+  color: #000000;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.logo-blue {
+  color: #2196f3;
+}
 
 .site-nav .link {
   color: var(--primary-text-color);
-
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -54,7 +53,12 @@ body {
 }
 
 .address-one .address-one-item {
-  color: #757575;
+  color: var(--secondary-text-color);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .address-one-item:hover,
@@ -63,9 +67,12 @@ body {
 }
 
 /*================ Герой ================*/
-.hero-title {
-  color: #2196f3;
+.hero {
+  background-color: #2f303a;
+}
 
+.hero-title {
+  color: #ffffff;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -97,7 +104,7 @@ body {
 }
 /*============== Преимущества =============*/
 .title-hidden {
-  color: #a79f9f;
+  display: none;
 }
 
 .benefits-list-item .suptitle {
@@ -111,7 +118,7 @@ body {
 }
 
 .benefits-list-item .description {
-  color: #757575;
+  color: var(--secondary-text-color);
 
   font-weight: 400;
   font-size: 14px;
@@ -150,7 +157,7 @@ body {
 }
 
 .team-description {
-  color: #757575;
+  color: var(--secondary-text-color);
 
   font-weight: 400;
   font-size: 16px;
@@ -158,9 +165,21 @@ body {
   letter-spacing: 0.03em;
 }
 /*================= Подвал ================*/
-.address-two-item {
-  color: #000000;
+.footer {
+  background-color: #2f303a;
+}
 
+.logo-text {
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.address-two-item {
+  color: #ffffff;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -180,11 +199,11 @@ body {
 .portfolio-main {
   background-color: #eeeeee;
 }
-/* ===============Кнопки=============== */
+/* ===============Фильтр=============== */
 
 .modal-button {
   color: var(--primary-text-color);
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -197,6 +216,7 @@ body {
 .modal-button:focus {
   color: #ffffff;
   background-color: #188ce8;
+}
 
 /* ===============Карточки=============== */
 .cards-item .card-suptitle {
@@ -209,7 +229,7 @@ body {
 }
 
 .cards-item .card-description {
-  color: #757575;
+  color: var(--secondary-text-color);
 
   font-weight: 400;
   font-size: 16px;
